@@ -6,4 +6,4 @@ WORKDIR /app
 
 COPY target/Train-0.0.1-SNAPSHOT.jar  /app/train.jar
 
-ENTRYPOINT["java", "-jar", "train.jar"]
+ENTRYPOINT ["java", "-jar", "train.jar"]
